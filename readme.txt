@@ -21,6 +21,8 @@ The widget options are:
 *   Link destination - Set whether the author's name should point to their list of posts, their website, or nowhere.
 *   Display post count - Decide whether to show how many posts the user has written in the specified time period.
 
+I also run [Do It With WordPress](http://www.doitwithwp.com "WordPress Tutorials"), which has an array of tutorials for managing, modifying and maintaining your WordPress sites, as well as [The WP Butler](http://www.thewpbutler.com), a service for keeping your site maintained, backup up, updated and secure.
+
 == Installation ==
 
 You know the drill...
