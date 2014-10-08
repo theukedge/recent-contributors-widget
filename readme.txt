@@ -5,7 +5,7 @@ Tags: authors, recent, contributors, widget, month, week, day
 Requires at least: 3.7
 Tested up to: 4.0
 Stable tag: 1.0
-License: GPLv2+ or later
+License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 This widget shows a list of all of the users that have written content on your site, since a static or dynamic time specified by you.
