@@ -12,6 +12,8 @@ This widget shows a list of all of the users that have written content on your s
 
 == Description ==
 
+**Like this plugin?** Consider [leaving a quick review](https://wordpress.org/support/view/plugin-reviews/recent-contributors-widget "Review Recent Contributors Widget") or writing about how you've used it on your site - [send me a link](https://www.theukedge.com/contact/?utm_source=wordpress.org&utm_medium=plugin&utm_campaign=contact "Contact Dave") to that write up if you do.
+
 This widget displays a list of all of the users that have written content on your site recently, where you can specify the point in time after which you want to consider posts for inclusion in the widget.
 
 The widget options are:
