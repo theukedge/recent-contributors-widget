@@ -1,6 +1,6 @@
 === Recent Contributors Widget ===
 Contributors: thewanderingbrit
-Donate link: http://www.theukedge.com/donate/
+Donate link: https://www.theukedge.com/donate/?utm_source=wordpress.org&utm_medium=plugin&utm_campaign=donate
 Tags: authors, recent, contributors, widget, month, week, day
 Requires at least: 3.7
 Tested up to: 4.0
@@ -21,7 +21,7 @@ The widget options are:
 *   Link destination - Set whether the author's name should point to their list of posts, their website, or nowhere.
 *   Display post count - Decide whether to show how many posts the user has written in the specified time period.
 
-I also run [Do It With WordPress](http://www.doitwithwp.com "WordPress Tutorials"), which has an array of tutorials for managing, modifying and maintaining your WordPress sites, as well as [The WP Butler](http://www.thewpbutler.com), a service for keeping your site maintained, backup up, updated and secure.
+I also run [Do It With WordPress](http://www.doitwithwp.com/?utm_source=wordpress.org&utm_medium=plugin&utm_campaign=my-other-sites "WordPress Tutorials"), which has an array of tutorials for managing, modifying and maintaining your WordPress sites, as well as [The WP Butler](https://www.thewpbutler.com/?utm_source=wordpress.org&utm_medium=plugin&utm_campaign=wordpress-services "WordPress Maintenance Services"), a service for keeping your site maintained, backed up, updated and secure.
 
 == Installation ==
 
@@ -31,11 +31,11 @@ You know the drill...
 
 = I have an issue =
 
-[Get in touch with me](http://www.theukedge.com/contact/) and I'll see if I can help.
+[Get in touch with me](https://www.theukedge.com/contact/?utm_source=wordpress.org&utm_medium=plugin&utm_campaign=contact "Contact The UK Edge") and I'll see if I can help.
 
 = Can you add a feature to this widget? =
 
-Probably. [Tell me](http://www.theukedge.com/contact/) what this widget should do that it doesn't currently.
+Probably. [Tell me](https://www.theukedge.com/contact/?utm_source=wordpress.org&utm_medium=plugin&utm_campaign=contact "Contact The UK Edge") what this widget should do that it doesn't currently.
 
 == Screenshots ==
 
