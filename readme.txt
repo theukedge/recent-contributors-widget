@@ -14,6 +14,8 @@ This widget shows a list of all of the users that have written content on your s
 
 **Like this plugin?** Consider [leaving a quick review](https://wordpress.org/support/view/plugin-reviews/recent-contributors-widget "Review Recent Contributors Widget") or writing about how you've used it on your site - [send me a link](https://www.theukedge.com/contact/?utm_source=wordpress.org&utm_medium=plugin&utm_campaign=contact "Contact Dave") to that write up if you do.
 
+This plugin is maintained on [GitHub](https://github.com/theukedge/recent-contributors-widget), so feel free to use the repository for reporting issues, submitting feature requests and submitting pull requests.
+
 This widget displays a list of all of the users that have written content on your site recently, where you can specify the point in time after which you want to consider posts for inclusion in the widget.
 
 The widget options are:
@@ -33,11 +35,11 @@ You know the drill...
 
 = I have an issue =
 
-[Get in touch with me](https://www.theukedge.com/contact/?utm_source=wordpress.org&utm_medium=plugin&utm_campaign=contact "Contact The UK Edge") and I'll see if I can help.
+The best thing to do is to submit an issue on [GitHub](https://github.com/theukedge/recent-contributors-widget/issues). If you don't have a GitHub account, then [get in touch with me](https://www.theukedge.com/contact/?utm_source=wordpress.org&utm_medium=plugin&utm_campaign=contact "Contact The UK Edge") and I'll see if I can help.
 
 = Can you add a feature to this widget? =
 
-Probably. [Tell me](https://www.theukedge.com/contact/?utm_source=wordpress.org&utm_medium=plugin&utm_campaign=contact "Contact The UK Edge") what this widget should do that it doesn't currently.
+Probably. The best thing to do is to create a new feature request on [GitHub](https://github.com/theukedge/recent-contributors-widget/issues). If you don't have a GitHub account, then [tell me](https://www.theukedge.com/contact/?utm_source=wordpress.org&utm_medium=plugin&utm_campaign=contact "Contact The UK Edge") what this widget should do that it doesn't currently.
 
 == Screenshots ==
 
