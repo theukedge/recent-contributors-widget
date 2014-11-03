@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Recent Contributors Widget
-Plugin URI: http://www.theukedge.com
+Plugin URI: https://github.com/theukedge/recent-contributors-widget
 Description: Displays a list of everyone that has contributed to your site recently (time period can be defined)
 Version: 1.0
 Author: Dave Clements
