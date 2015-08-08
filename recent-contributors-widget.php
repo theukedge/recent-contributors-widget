@@ -3,13 +3,13 @@
 Plugin Name: Recent Contributors Widget
 Plugin URI: https://github.com/theukedge/recent-contributors-widget
 Description: Displays a list of everyone that has contributed to your site recently (time period can be defined)
-Version: 1.0
+Version: 1.1
 Author: Dave Clements
-Author URI: http://www.davidclements.me
+Author URI: https://www.davidclements.me
 License: GPLv2
 */
 
-/*  Copyright 2013  Dave Clements  (email : http://www.theukedge.com/contact/)
+/*  Copyright 2015  Dave Clements  (email : https://www.theukedge.com/contact/)
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License, version 2, as
