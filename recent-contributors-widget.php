@@ -12,7 +12,7 @@ License: GPLv2
 /*  Copyright 2013  Dave Clements  (email : http://www.theukedge.com/contact/)
 
 	This program is free software; you can redistribute it and/or modify
-	it under the terms of the GNU General Public License, version 2, as 
+	it under the terms of the GNU General Public License, version 2, as
 	published by the Free Software Foundation.
 
 	This program is distributed in the hope that it will be useful,
@@ -26,14 +26,14 @@ License: GPLv2
 */
 
 	// Start class recent_contributors_widget //
- 
+
 class recent_contributors_widget extends WP_Widget {
- 
+
 	// Constructor //
-	
+
 	function recent_contributors_widget() {
 		load_plugin_textdomain('recent_contributors', false, dirname(plugin_basename(__FILE__)) . '/languages/');
-		parent::WP_Widget(false, $name = __('Recent Contributors Widget', 'recent_contributors'), array('description' => __('Displays a list of recent contributors to your site', 'recent_contributors')) );	
+		parent::__construct(false, $name = __('Recent Contributors Widget', 'recent_contributors'), array('description' => __('Displays a list of recent contributors to your site', 'recent_contributors')) );
 	}
 
 	// Extract Args //
@@ -46,15 +46,15 @@ class recent_contributors_widget extends WP_Widget {
 		$postcount = $instance['postcount']; // Whether to show number of posts by each author
 
 	// Before widget //
-		
+
 		echo $before_widget;
-		
+
 	// Title of widget //
-		
+
 		if ( $title ) { echo $before_title . $title . $after_title; }
-		
+
 	// Widget output //
-		
+
 		// get all contributors and their display names
 		$allauthors = get_users();
 		$i = 0;
@@ -80,7 +80,7 @@ class recent_contributors_widget extends WP_Widget {
 					<li>
 						<?php if( $linkdestination == 'posts_list' ) {
 							echo '<a href="'. get_author_posts_url( $author['id'] ) .'">' . $author['name'] . '</a>';
-						} elseif( $linkdestination == 'website' ) { 
+						} elseif( $linkdestination == 'website' ) {
 							echo '<a href="'. get_the_author_meta( 'user_url', $author['id'] ) .'">' . $author['name'] . '</a>';
 						} else {
 							echo $author['name'];
@@ -94,14 +94,14 @@ class recent_contributors_widget extends WP_Widget {
 		} ?>
 		</ul>
 		<?php
-				
+
 	// After widget //
-		
+
 		echo $after_widget;
 	}
-		
+
 	// Update Settings //
- 
+
 	function update($new_instance, $old_instance) {
 			$instance = $old_instance;
 			$instance['title'] = strip_tags($new_instance['title']);
@@ -110,14 +110,14 @@ class recent_contributors_widget extends WP_Widget {
 			$instance['postcount'] = strip_tags($new_instance['postcount']);
 		return $instance;
 	}
- 
+
 	// Widget Control Panel //
-	
+
 	function form($instance) {
 
 		$defaults = array( 'title' => 'Recent Contributors', 'timestring' => '30 days ago', 'linkdestination' => 'none', 'postcount' => 1 );
 		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
-		
+
 		<p>
 			<label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title', 'recent_contributors'); ?>:</label>
 			<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $instance['title']; ?>" />
@@ -140,7 +140,7 @@ class recent_contributors_widget extends WP_Widget {
         </p>
 
 	<?php }
- 
+
 }
 
 // End class recent_contributors_widget
