@@ -49,9 +49,15 @@ Probably. The best thing to do is to create a new feature request on [GitHub](ht
 == Changelog ==
 
 = 1.1 =
+
+Release date: August 13, 2015
+
 * Updated deprecated constructor method
 
 = 1.0 =
+
+Release date: October 9, 2014
+
 * Initial release
 
 == Upgrade Notice ==
