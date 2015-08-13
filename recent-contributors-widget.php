@@ -25,7 +25,20 @@ License: GPLv2
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, A  02110-1301  USA
 */
 
-	// Start class recent_contributors_widget //
+/* ---------------------------------- *
+ * constants
+ * ---------------------------------- */
+
+if ( !defined( 'RCW_PLUGIN_DIR' ) ) {
+	define( 'RCW_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
+}
+
+if ( !defined( 'RCW_PLUGIN_URL' ) ) {
+	define( 'RCW_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
+}
+
+
+// Start class recent_contributors_widget //
 
 class recent_contributors_widget extends WP_Widget {
 
