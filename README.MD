@@ -9,4 +9,4 @@ This widget displays a list of all of the users that have written content on you
 If you find an issue, let me know [here](https://github.com/theukedge/recent-contributors-widget/issues/new).
 
 ## Contributions ##
-I openly welcome community contributions, including bug fixes, new features and translations. Please feel free to [fork the project](https://github.com/theukedge/recent-contributors-widget/fork) and submit a pull request.
+I openly welcome community contributions, including bug fixes and new features. Please feel free to [fork the project](https://github.com/theukedge/recent-contributors-widget/fork) and submit a pull request.

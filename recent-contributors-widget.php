@@ -7,6 +7,7 @@ Version: 1.1
 Author: Dave Clements
 Author URI: https://www.davidclements.me
 License: GPLv2
+Text Domain: recent-contributors-widget
 */
 
 /*  Copyright 2015  Dave Clements  (email : https://www.theukedge.com/contact/)
@@ -45,8 +46,8 @@ class recent_contributors_widget extends WP_Widget {
 	// Constructor //
 
 	function recent_contributors_widget() {
-		load_plugin_textdomain('recent_contributors', false, dirname(plugin_basename(__FILE__)) . '/languages/');
-		parent::__construct(false, $name = __('Recent Contributors Widget', 'recent_contributors'), array('description' => __('Displays a list of recent contributors to your site', 'recent_contributors')) );
+		load_plugin_textdomain( 'recent-contributors-widget' );
+		parent::__construct(false, $name = __('Recent Contributors Widget', 'recent-contributors-widget'), array('description' => __('Displays a list of recent contributors to your site', 'recent-contributors-widget')) );
 	}
 
 	// Extract Args //
@@ -132,19 +133,19 @@ class recent_contributors_widget extends WP_Widget {
 		$instance = wp_parse_args( (array) $instance, $defaults ); ?>
 
 		<p>
-			<label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title', 'recent_contributors'); ?>:</label>
+			<label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title', 'recent-contributors-widget'); ?>:</label>
 			<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $instance['title']; ?>" />
 		</p>
 		<p>
-			<label for="<?php echo $this->get_field_id('timestring'); ?>"><?php _e('Since when', 'recent_contributors'); ?>:</label>
+			<label for="<?php echo $this->get_field_id('timestring'); ?>"><?php _e('Since when', 'recent-contributors-widget'); ?>:</label>
 			<input class="widefat" id="<?php echo $this->get_field_id('timestring'); ?>" name="<?php echo $this->get_field_name('timestring'); ?>'" type="text" value="<?php echo $instance['timestring']; ?>" />
 		</p>
 		<p>
-			<label for="<?php echo $this->get_field_id('linkdestination'); ?>"><?php _e('Link destination', 'recent_contributors'); ?>:</label>
+			<label for="<?php echo $this->get_field_id('linkdestination'); ?>"><?php _e('Link destination', 'recent-contributors-widget'); ?>:</label>
 			<select id="<?php echo $this->get_field_id('linkdestination'); ?>" name="<?php echo $this->get_field_name('linkdestination'); ?>">
-				<option value="none" <?php selected( 'none', $instance['linkdestination'] ); ?>><?php _e( 'No link', 'recent_contributors' ); ?></option>
-				<option value="posts_list" <?php selected( 'posts_list', $instance['linkdestination'] ); ?>><?php _e( 'Posts list', 'recent_contributors' ); ?></option>
-				<option value="website" <?php selected( 'website', $instance['linkdestination'] ); ?>><?php _e( 'Author\'s website' , 'recent_contributors' ); ?></option>
+				<option value="none" <?php selected( 'none', $instance['linkdestination'] ); ?>><?php _e( 'No link', 'recent-contributors-widget' ); ?></option>
+				<option value="posts_list" <?php selected( 'posts_list', $instance['linkdestination'] ); ?>><?php _e( 'Posts list', 'recent-contributors-widget' ); ?></option>
+				<option value="website" <?php selected( 'website', $instance['linkdestination'] ); ?>><?php _e( 'Author\'s website' , 'recent-contributors-widget' ); ?></option>
 			</select>
 		</p>
 		<p>
