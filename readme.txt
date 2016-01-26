@@ -3,8 +3,8 @@ Contributors: thewanderingbrit
 Donate link: https://www.theukedge.com/donate/?utm_source=wordpress.org&utm_medium=plugin&utm_campaign=donate
 Tags: authors, recent, contributors, widget, month, week, day
 Requires at least: 3.7
-Tested up to: 4.3
-Stable tag: 1.1
+Tested up to: 4.4.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,6 +48,12 @@ Probably. The best thing to do is to create a new feature request on [GitHub](ht
 
 == Changelog ==
 
+= 1.2 =
+
+Release date: January 26, 2016
+
+* Add support for wordpress.org language packs (translations welcome!)
+
 = 1.1 =
 
 Release date: August 13, 2015
@@ -62,8 +68,11 @@ Release date: October 9, 2014
 
 == Upgrade Notice ==
 
+= 1.2 =
+Add support for wordpress.org language packs
+
 = 1.1 =
-* Updated deprecated constructor method
+Updated deprecated constructor method
 
 = 1.0 =
 Initial release
